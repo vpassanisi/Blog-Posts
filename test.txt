@@ -1,6 +1,7 @@
-<(This is a test post title)>
+# title 1
+## title 2
 
-<(test)> 123
+<#test#> 123
 
 this is a test blog post
 
