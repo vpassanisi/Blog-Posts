@@ -1,4 +1,4 @@
-test title 123 <(This is a test post title)>
+<(This is a test post title)>
 
 <(test)> 123
 
