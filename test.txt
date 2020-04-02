@@ -1,6 +1,6 @@
 test title 123 <(This is a test post title)>
 
-<(test)>
+<(test)> 123
 
 this is a test blog post
 
