@@ -1,0 +1,60 @@
+# Parallel Compression
+
+Compression is a powerful tool in audio production, but like any tool it can be
+constructive and it can be destructive. To make this tool work for you it is important to define
+what it SHOULD do. Obviously, a compressor reduces the dynamic range of the program
+material, that is a given, but how that is achieved is crucial in deciding the quality of the finished
+product. So, we can use parallel compression to get a lot of dynamic range compression
+without introduction obvious 'pumping' or volume artifacts into the audio. The result, if done
+correctly, is natural sounding and punchy because the transient structure of the original audio is
+largely preserved.
+
+The basic concept behind parallel compression is to have a highly compressed version
+of the program material in parallel with the uncompressed signal. These two signal paths are
+summed together on their own. Traditionally, the two signal paths contain the exact same mix
+of elements. For example, in a drum mix using parallel compression the snare, kick, overheads,
+etc. are all balanced the same in the compressed and uncompressed signal paths.
+Furthermore, the uncompressed signal typically does not contain ANY processing that the
+compressed signal does not (other than compression obviously). This is not to say that you
+cannot decide to apply some equalization to the uncompressed signal, however it requires a
+complete understanding of parallel compression as a tool and how to properly implement it for a
+given piece of audio.
+
+This brings us to where the rubber meets the road, so to speak; the compressor. What
+compressor should I use? How do it set it up and how should I set it differently from in-line
+compression? When you are using a compressor in parallel you essentially want to hear the
+compressed signal most when the original audio is quiet. Conversely, you want to hear the
+uncompressed audio most when it is loudest, since it is the more dynamic of the two signals. In
+this way you are trying to replace the transients of the compressed audio with the original tracks
+audio, so you are left with a signal that has a natural transient response but the dynamic range
+is still reduced because the quiet parts that normally go unheard are brought up by the
+compressed signal.
+
+If you can really understand this concept you can almost always figure out what the
+best attack and release times for your compressor should be. It is all dependent on the
+transients of the audio. For the most common use case for parallel compression, drums, you
+need extremely fast attack and release times, because drum sounds typically attack and decay
+very fast, especially compared to something like a vocal performance.
+
+An important thing to notice here is the temporal frame of reference for your
+compressor in any given parallel compression scenario. For something like drums, you typically
+want the audio to cross the threshold for your parallel bus compressor every time the kick or
+snare is hit. That means you need very fast attack and release times. For drums I generally
+assume with an attack time of less than 5 milliseconds I am catching the majority of the
+transient, although faster is better in this case. The release time is always a little bit more
+tricky. If you are using a compressor that has a VU for gain reduction metering you can watch it
+and adjust the release so that it ‘feels’ like it is on rhythm with the song, since the ballistics of
+the needly aren’t exactly analogous to what the compressor is doing at that exact moment. If
+you have a digital compressor and can see exactly what the compressor is doing, having the
+recovery of the compressor act similarly to the decay of the individual drum hits in the recording
+is a good place to start.
+
+The other common use case for parallel compression is on a vocal. In this case your
+compressor should be working with larger sections of time. You still want a fast attack but the
+release time is going to be much longer than for drums. In some cases, the vocal might not
+cross the threshold of the parallel bus compressor at all in an entire section of a song. But,
+when the performance gets loud there should be a lot of compression and it should decay in
+time with the performance itself.
+
+Parallel compression and be a powerful tool for anyone that takes the time to fully
+understand the concept of how to use it.
