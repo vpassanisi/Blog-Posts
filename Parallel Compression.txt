@@ -1,4 +1,5 @@
 # Parallel Compression
+#### what is it and how to use it\
 
 Compression is a powerful tool in audio production, but like any tool it can be
 constructive and it can be destructive. To make this tool work for you it is important to define
