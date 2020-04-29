@@ -2,9 +2,7 @@
 
 \
 
-This is a basic in browser recreation of the Oscilator, Filter, and Amplifier sections of the Sequential Circuits Prophet 5.  
-
-The Prophet 5 is one of the most infuential synthesizers in the hisory of music.  It was the first to implement many features like presets and midi that we take for granted now in every synthesier on the market.  On top of all the inovation in the Prophet 5, it had a huge warm sound that everyone has come to love.
+This is a basic in browser recreation of the Oscilator, Filter, and Amplifier sections of the Sequential Circuits Prophet 5. The Prophet 5 is one of the most infuential synthesizers in the hisory of music.  It was the first to implement many features like presets and midi that we take for granted now in every synthesier on the market.  On top of all the inovation in the Prophet 5, it had a huge warm sound that everyone has come to love.
 
 
 This recreation was built with the Tone.js library for the
