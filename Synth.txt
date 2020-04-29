@@ -16,5 +16,3 @@ setts the desination value for the attack frequency of the filter, rather than t
 This synthesizer was an exploration of what is possible with
 audio in the browser.  Tone.js is a large library and gives you
 many options in terms of routing and parameters for you to create and manipulate sound.  I think the downsides to working with audio in the browser is the latency.  There are audio projects that are not sensitive to latency, like a DAW, that I think can find success in the browser but with an instrument that you are going to play in real time you may run into some problems when developing in the browser.
-
----
